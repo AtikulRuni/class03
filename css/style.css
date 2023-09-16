@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+header{
+	background-color: #0AB7E8;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.container{
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.logo{
+	width: 50%;
+}
+.logo img{
+	width: 150px;
+}
+
+
+
+.menu{
+	width: 50%;
+	text-align: center;
+}
+.menu h1{
+	font-size: 30px;
+	margin: 0;
+	color: white;
+	margin-bottom: 10px;
+}
+.menu a{
+	background-color: #FF7062;
+	padding: 12px 20px;
+	font-size: 16px;
+	display: inline-flex;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+
+section{
+	display: flex;
+	justify-content: center;
+	background-color: #D8E7EC;
+}
+
+
+.col_1_2{
+	width: 50%;
+}
+
+.col_1_2 div{
+	padding: 25px;
+	height: 100%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.aboutSection h2{
+	font-size: 42px;
+	text-align: center;
+	margin: 0;
+	line-height: 1.3;
+	font-weight: bolder;
+}
+.aboutSection h3{
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	font-weight: 500;
+}
+
+.aboutSection{
+	padding: 50px 0;
+}
